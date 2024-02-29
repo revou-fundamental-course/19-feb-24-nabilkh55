@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    width: 100%;
+    min-width: 200px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    border: 2px solid black;
+}
+
+.logo {
+    width: 60px;
+}
+
+.navigation {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ffffff;
+    border: 1px solid black;
+}
+
+.navigation li {
+    display: inline;
+    border-right:1px solid black;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: black;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #dddddd;
+}
+
+.title {
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 20px;
+    border-bottom: 2px solid black;
+}
+
+.title-head-message {
+    padding-bottom: 50px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.header-img {
+    background-repeat: no-repeat;
+    padding-left: 20px;
+    width: 1240px;
+    height: 650px;
+}
+
+.our-office {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 30px;
+    border-bottom: 2px solid black;
+}
+
+.city{
+    text-align: center;
+}
+
+.our-office img {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+
+.our-office img:hover {
+    opacity: .7;
+}
+
+.inquiry-box {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 30px;
+    border-bottom: 2px solid black;
+}
+
+.inquiry-form {
+    width: 40%;
+}
+
+.inquiry-form input[type="submit"]{
+    width: 270px;
+}
+
+.output {
+    width: 25%;
+    border: 1px solid black;
+    padding: 4px 6px;
+}
+
+footer .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+@media screen and (max-width: 600px) {
+    navigation ul {
+    width: 50%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    navigation ul {
+    width: 50%;
+    }
+}
